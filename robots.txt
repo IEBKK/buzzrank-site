@@ -1,0 +1,10 @@
+# The ranking is meant to be found; the reader is not meant to be tracked.
+#
+# Everything published here is a static file with no server behind it, so there
+# is nothing to protect from a crawler. Indexing is allowed in full.
+#
+# FR-2.7 asks for per-title pages at /title/{slug}. This build routes on the
+# hash, so a crawler sees only the home page -- that is a real SEO limitation
+# and it is recorded in the methodology page rather than papered over here.
+User-agent: *
+Allow: /
